@@ -1,0 +1,185 @@
+/* reset css */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* common css */
+.layout {
+	max-width: 900px;
+	margin: 0px auto;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.subTitle {
+	color: #5C99CA;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.layout-box {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+	color: #666;
+	margin-bottom: 30px;
+}
+.text-color {
+	color: #5858f5;
+}
+
+/* page css */
+.wrap {
+}
+
+/* header */
+.wrap > .header {
+	height: 100px;
+	background-color: #3C3C3C;
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+}
+.header > h1 {
+	color: #fff;
+	font-size: 30px;
+}
+.header > p {
+	color: #aaa;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.header > .avatar {
+	width: 162px;
+	height: 162px;
+	position: absolute;
+	border-radius: 100%;
+	overflow: hidden;
+	top: 20px;
+	left: 30px;
+}
+.avatar > img {
+	max-width: 100%;
+}
+
+/* main */
+.wrap > .main {
+	width: 100%;
+	display: flex;
+}
+.main > .basic {
+	width: 240px;
+	border-right: 1px solid #ccc;
+	overflow: hidden;
+	padding: 0 20px 0 20px;
+}
+
+/* basic-box1 */
+
+.basic > .basic-box1 {
+	margin-top: 150px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.basic-box1 > ul > li {
+	list-style: none;
+	margin-top: 10px;
+	color: #666;
+}
+.basic-box1 > ul > li span {
+	display: inline-block;
+	width: 80px;
+	margin-right: 20px;
+}
+
+/* basic-box2 */
+
+.basic-box2 {
+	margin-top: 40px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+.basic-box2 > dl {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.basic-box2 > dl > dt {
+	color: #666;
+}
+.basic-box2 > dl > dd{
+	height: 4px;
+	background-color: #ccc;
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.basic-box2 > dl > dd > span {
+	background-color: #000;
+	border-radius: 4px;
+	display: block;
+	height: 100%;
+}
+
+/* basic-box3 */
+
+.basic-box3 {
+	margin-top: 30px;
+}
+.basic-box3 > ul > li{
+	list-style: none;
+	margin-top: 10px;
+	color: #666;
+	font-size: 14px;
+}
+.basic-box3 > ul > li span {
+	font-family: iconfont;
+	margin-right: 5px;
+}
+
+/* basic-box4 */
+.basic-box4 {
+	margin-top: 30px;
+	color: #666;
+}
+
+/* inner */
+
+.inner {
+	width: 660px;
+	padding: 30px 20px 0 20px;
+}
+.inner > .work {
+	border: none;
+}
+.work > .workstyle {
+	margin-bottom: 30px;
+}
+.work > .workstyle > h3, h4 {
+	color: #333;
+}
+.workstyle > h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.workstyle > ul {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+.workstyle > ul > li {
+	margin-top: 5px;
+}
+.workstyle > .experience-style {
+	margin-bottom: 20px;
+}
+.workstyle > .experience-style > ul{
+	margin-left: 30px;
+}
+.workstyle > .experience-style > ul > li {
+	margin-top: 5px;
+}
+.workstyle > .experience-style > ul > li > ul {
+	margin-left: 10px;
+}

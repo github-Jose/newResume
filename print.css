@@ -1,0 +1,16 @@
+.wrap > .header {
+    background-color: #3C3C3C!important;
+    -webkit-print-color-adjust: exact; 
+}
+.basic-box2 > dl > dd{
+    display: block!important;
+    -webkit-print-color-adjust: exact;
+}
+.basic-box2 > dl > dd > span {
+	background-color: #000!important;
+    -webkit-print-color-adjust: exact;
+}
+.inner {
+    /* background-color: red!important; */
+    /* -webkit-print-color-adjust: exact; */
+}
